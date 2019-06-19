@@ -19,4 +19,9 @@ public class WannabeGoogleController {
 			return "";
 		}
 	}
+	
+	@GetMapping("/")
+	public String home() {
+		return "Welcome!";
+	}
 }
